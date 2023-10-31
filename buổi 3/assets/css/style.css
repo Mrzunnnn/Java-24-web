@@ -1,0 +1,55 @@
+/* reset brower
+*{ 
+    margin:0;
+    padding:0;
+    đây là khoảng cách từ phần tử này đến phần tử khác
+}
+
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+p{
+    color: blue;
+    font-size: 45px;
+}
+h4{
+    color: blueviolet;
+}
+/* dat ten theo class  goi ten them dau (.)*/
+.title-1{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;}
+.title-2{color: green;}
+/* dat ten theo ID. cach goi ten them dau (#) */
+#TTh2-1{color: brown;}
+#TTh2-2{color: yellow;}
+div h3{ color: pink;}
+h3{color: aquamarine; }
+/* bo chon css cua link 
+a:link la cho cac the chua click
+a:visited la cho cac the da click*/
+a:link{color: black;}
+a:visited{color: pink;}
+.para3{font-style: italic;
+font-size: 15px;}
+.box1{background-color: blue;
+width: 300px;
+height: 200px;
+border: 5px solid red;
+border-radius: 50%;}
+/* viền nét đứt là dotted 
+muốn bo viền thì dùng border-radius*/
+.box2{background-color: black;
+width: 100px;
+height: 100px;
+
+padding-top:40px ;
+padding-left: 200px;
+display: none;}
+
+
